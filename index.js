@@ -8,7 +8,7 @@ class Driver{
   constructor(name){
     this.name = name;
     this.id = driveId++;
-    
+    store.derivers.push(this);
   }
-  store.derivers.push(this);
+  
 }
