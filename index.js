@@ -6,7 +6,7 @@ let tripId = 0;
 
 class Driver{
   constructor(name){
-    this.id = id
+    this.id = driveId++
     this.name = name
   }
 }
