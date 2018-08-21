@@ -9,4 +9,5 @@ class Driver{
     this.id = driveId++;
     this.name = name;
   }
+  store.derivers.push(this);
 }
