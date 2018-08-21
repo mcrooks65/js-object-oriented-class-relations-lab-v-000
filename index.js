@@ -10,4 +10,9 @@ class Driver{
     this.id = driverId++;
     store.drivers.push(this);
   }
+  trips(){
+    return this.trips().map(trip => {
+      return trip.passenger();
+    });
+  }
 }
