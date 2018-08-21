@@ -6,8 +6,9 @@ let tripId = 0;
 
 class Driver{
   constructor(name){
-    this.id = driveId++;
     this.name = name;
+    this.id = driveId++;
+    
   }
   store.derivers.push(this);
 }
